@@ -1,0 +1,38 @@
+{
+  "name": "northwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.104",
+    "@types/http-errors": "^1.8.2",
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "serverless-offline": "^10.1.0",
+    "serverless-webpack": "^5.9.1",
+    "ts-loader": "^9.3.1"
+  },
+  "dependencies": {
+    "@middy/core": "^3.3.2",
+    "@middy/http-cors": "^3.3.2",
+    "@middy/http-error-handler": "^3.3.2",
+    "@middy/validator": "^3.3.4",
+    "aws-sdk": "^2.1217.0",
+    "dotenv": "^16.0.2",
+    "http-errors": "^2.0.0",
+    "json-schema-to-ts": "^2.5.5",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.9"
+  }
+}
